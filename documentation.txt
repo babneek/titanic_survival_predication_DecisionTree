@@ -1,0 +1,99 @@
+# Titanic Survival Prediction - Decision Tree Classifier (Day 3)
+
+## Introduction
+This project is part of my **30 Days ML Algorithms Challenge (Day 3)**.  
+We use the **Titanic dataset** from Kaggle to predict passenger survival using **Decision Tree Classifiers** with both **Gini Index** and **Entropy** criteria.  
+The goal is to understand Decision Trees, compare criteria, visualize tree splits, feature importances, and analyze overfitting/underfitting.
+
+---
+
+## Key Terms & Concepts
+
+### 1. Decision Tree
+A supervised learning algorithm that splits data into branches (like a flowchart) based on features until a decision outcome is reached.
+
+- **Nodes**: Decision points based on a feature.
+- **Branches**: Outcomes of the decisions.
+- **Leaves**: Final classification results.
+
+---
+
+### 2. Gini Index
+- Measures impurity in a dataset.
+- Formula: `Gini = 1 - Σ (p_i)^2`, where `p_i` = probability of class i.
+- Lower Gini → purer split.
+
+---
+
+### 3. Entropy & Information Gain
+- **Entropy**: Measures randomness in the data.  
+  Formula: `Entropy = -Σ (p_i * log2(p_i))`
+- **Information Gain**: Reduction in entropy when splitting a dataset on a feature.
+
+---
+
+### 4. Overfitting vs Underfitting
+- **Overfitting**: Tree learns training data too well, poor generalization.
+- **Underfitting**: Tree too simple, fails to capture patterns.
+- Controlled using hyperparameters:
+  - `max_depth`: Maximum tree depth.
+  - `min_samples_split`: Minimum samples required to split a node.
+
+---
+
+### 5. Feature Importance
+- Measures how much each feature contributes to the decision process.
+- Higher importance = feature used more often for splitting.
+
+---
+
+## Workflow
+
+1. **Data Preprocessing**
+   - Drop irrelevant columns (`Name`, `Ticket`, `Cabin`).
+   - Fill missing values (`Age` → median, `Embarked` → mode).
+   - Encode categorical features (`Sex`, `Embarked`).
+   - Features used: `Pclass, Sex, Age, SibSp, Parch, Fare, Embarked_Q, Embarked_S`.
+
+2. **Model Training**
+   - Train two Decision Trees:
+     - One with **Gini** criterion.
+     - One with **Entropy** criterion.
+   - Compare accuracy, confusion matrices, and classification reports.
+
+3. **Evaluation**
+   - Accuracy, confusion matrix, classification report.
+   - Feature importance plot.
+   - Train vs Test accuracy plot (overfitting/underfitting).
+
+4. **Visualization**
+   - Tree diagrams (up to depth=3 for readability).
+   - Survival distributions and EDA plots.
+
+5. **Prediction**
+   - Interactive form in Streamlit for custom passenger input.
+   - Predicts survival probability.
+
+---
+
+## Tools & Libraries
+- **Python** (3.10+)
+- **Streamlit** → interactive app
+- **Pandas** → data manipulation
+- **NumPy** → numerical operations
+- **Scikit-learn** → ML models & metrics
+- **Matplotlib & Seaborn** → visualization
+- **Joblib** → model saving
+
+---
+
+## Why Decision Tree for Titanic?
+- Handles both categorical & numerical data.
+- Easy to interpret.
+- Good baseline before moving to ensemble models (Random Forest, XGBoost).
+
+---
+
+## Contact
+📧 Email: babneeksaini@gmail.com  
+📞 Phone: +91 8076893417
