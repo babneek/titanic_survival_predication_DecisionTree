@@ -10,12 +10,6 @@ Streamlit App:
 https://titanicsurvivalpredicationdecisiontree-jnksqvqffuqhzgdbpn5ew5.streamlit.app/
 
 
-##📂 Project Structure
-├── app.py # Streamlit App
-├── data/train.csv # Titanic dataset (Kaggle)
-├── documentation.txt # In-depth explanations
-├── README.md # Project overview
-├── requirements.txt # Dependencies
 
 ---
 
@@ -65,6 +59,7 @@ check: documentation.txt
 👩 Author: Babneek Kaur
 📩 Email: babneeksaini@gmail.com
 📞 Phone: +91 8076893417
+
 
 
 
