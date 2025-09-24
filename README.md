@@ -7,8 +7,8 @@ On **Day 3**, I implemented **Decision Tree Classifiers** using both **Gini Inde
 
 ## 🚀 Live Demo
 Streamlit App:  
-**https://titanicsurvivalpredicationdecisiontree-jnksqvqffuqhzgdbpn5ew5.streamlit.app/
-**---
+https://titanicsurvivalpredicationdecisiontree-jnksqvqffuqhzgdbpn5ew5.streamlit.app/
+
 
 ##📂 Project Structure
 ├── app.py # Streamlit App
@@ -65,6 +65,7 @@ check: documentation.txt
 👩 Author: Babneek Kaur
 📩 Email: babneeksaini@gmail.com
 📞 Phone: +91 8076893417
+
 
 
 
