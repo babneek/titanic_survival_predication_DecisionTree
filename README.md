@@ -7,19 +7,15 @@ On **Day 3**, I implemented **Decision Tree Classifiers** using both **Gini Inde
 
 ## 🚀 Live Demo
 Streamlit App:  
-👉 [https://titanicsurvivalpredicationknn-trryik483ev48dwvwzhdr8.streamlit.app/](https://titanicsurvivalpredicationknn-trryik483ev48dwvwzhdr8.streamlit.app/)
+**https://titanicsurvivalpredicationdecisiontree-jnksqvqffuqhzgdbpn5ew5.streamlit.app/
+**---
 
----
-
-## 📂 Project Structure
+##📂 Project Structure
 ├── app.py # Streamlit App
 ├── data/train.csv # Titanic dataset (Kaggle)
 ├── documentation.txt # In-depth explanations
 ├── README.md # Project overview
 ├── requirements.txt # Dependencies
-
-yaml
-Copy code
 
 ---
 
@@ -69,5 +65,6 @@ check: documentation.txt
 👩 Author: Babneek Kaur
 📩 Email: babneeksaini@gmail.com
 📞 Phone: +91 8076893417
+
 
 
